@@ -1,0 +1,302 @@
+body
+{
+  font-size:26px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.head
+{
+    background-image: url(../image/55.jpg);
+    height:600px;
+    background-position:center center;
+    background-size:cover;
+    font-size: 30;
+     }
+    
+   
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  padding: 14px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+  padding: 10px 10px;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}  
+
+
+     
+  .container .navbar{
+   padding-left: 50px;
+   float:right
+ }
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.card{
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.card:hover .card-overlay {
+  opacity: 1;
+}
+
+
+
+
+    
+    .head-info
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+        padding-bottom: 10px;
+    }
+.fas
+{
+  font-size:300%;
+  color:#1777;
+}
+
+.head ul li a
+{
+ text-decoration: none;
+
+}
+
+.head li  a{
+    color:white;
+    text-align:left;
+  
+}
+.type-med
+{
+position: relative;
+width: 50%;
+}
+
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: 200px;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.type-med:hover .image {
+opacity: 0.3;
+}
+
+.type-med:hover .middle {
+opacity: 1;
+}
+
+.text
+ {
+color: #215198;
+font-size: 30px;
+padding: 16px 32px;
+}
+
+.Category
+{
+  background-color: #ddd;
+}
+
+med-info
+{
+  background-color: #ddd;
+}
+.footer-info ul li
+{
+font-size: 20px;
+}
+.footer-info .soical 
+{
+font-size:14px;
+
+}
+.soical a
+{
+  font-size: 16px
+}
+
+.soical .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.footer-info
+{
+background-color:#ddd;
+width:100%;
+height: 100%px;
+}
+.contact
+{
+  font-size: 30px;
+  padding-top: 20px;
+  color:#fff;
+
+}
+.contact ul li a
+{
+  text-decoration: none;
+}
+.soical>a
+{
+font-size: 30px;
+color:#55ACEE;
+text-decoration: none;
+margin-right: 0px;
+}
+.soical
+{
+display: inline-;
+margin:50px 50px  0 50px
+}
+
+
+
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+#loader
+{
+  
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin: 0;
+}
+#loading
+{
+ position: fixed;
+bottom:0;
+top:0;
+left:0;
+right:0;
+background-color: aquamarine;
+z-index: 999;
+}
+
+
+
+
+
+
